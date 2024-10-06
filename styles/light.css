@@ -3,9 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root {
-}
-
 .page.theme_light {
   --secondary-color: #ffc2e6;
   --accent-color: #ff8dcb;
@@ -34,7 +31,7 @@
   background-color: var(--accent-color);
 }
 .page.theme_light .section-title {
-  color: var(--text-color);
+  color: var(--text-color);  
 }
 .page.theme_light .card-text {
   color: var(--text-color);

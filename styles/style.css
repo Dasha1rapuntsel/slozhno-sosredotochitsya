@@ -67,7 +67,7 @@
 }
 .header__theme-menu-button:focus {
   outline: none;
-  border:none;
+  border:none;  
   border-bottom: 1px solid var(--accent-color);
 }
 .header__theme-menu-button:focus-visible {
@@ -128,7 +128,6 @@
 }
 
 .decorated-zone::before {
-  /* Правый верхний угол */
   top: 1%;
   right: 1%;
   border-top-color: var(--accent-color);
@@ -138,7 +137,6 @@
 }
 
 .decorated-zone::after {
-  /* Нижний левый угол */
   bottom: 1%;
   left: 1%;
   border-bottom-color: var(--accent-color);

@@ -25,15 +25,13 @@
   background-color: var(--primary-color);
 }
 
-.page.theme_dark .decorated-zone {
-}
 .page.theme_dark .title-decor {
   color: var(--text-color);
 }
 
 .page.theme_dark .header__decor-element-rec {
   color: var(--accent-color);
-  font-size: 18px;
+  font-size: 18px;  
 }
 
 .page.theme_dark .header__title {

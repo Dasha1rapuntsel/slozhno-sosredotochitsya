@@ -13,6 +13,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono";
+  background-attachment: fixed;
 }
 
 .decorated-zone {
@@ -252,6 +253,7 @@
   .header__title {
     margin-block-start: 14%;
     margin-inline-start: 10px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__theme-menu-list {
@@ -260,9 +262,6 @@
 
   .container_main_text {
     margin-block-start: 12%;
-  }
-  .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header {
@@ -386,11 +385,10 @@
     margin-block-start: 0.8rem;
   }
   .footer__title {
+    padding-inline-start: 30%;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  .footer__title {
-    padding-inline-start: 30%;
-  }
+
   .section:nth-child(1),
   .section:nth-child(3) {
     display: flex;
